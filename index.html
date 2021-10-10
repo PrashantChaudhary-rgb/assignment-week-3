@@ -1,58 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>Flex</title>
     <style>
-        h1 {
-            color:  rgb(81 79 232);
+        h1{
+            text-align: center;
         }
-
-        .ad {
-            color: blue;
-        }
-
-        .sd {
-            background-color: red;
-        }
-
-        .ad,
-        .sd {
-             font-style: italic;
-        }
-        article ol li{
-            background-color: rgb(207, 130, 223);
-        }
-        .big 
+        #flex
         {
-            font: 20px;
-        }
-        .big p{
-            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid pink;
+            padding: 10px;
         }
     </style>
 </head>
-
-<body class="big">
-    <h1>this is heading</h1>
-    <h1>this is another heading</h1>
-    <p class="ad sd">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, doloremque architecto ipsum
-        praesentium quisquam amet! Neque doloremque, laboriosam illum sunt maiores nostrum itaque fugit. Fuga pariatur
-        aliquam reprehenderit non quisquam quaerat natus quod optio laborum recusandae, laboriosam ut odio neque
-        incidunt veritatis ipsa quibusdam? Tenetur corporis itaque ipsam necessitatibus consequatur nulla temporibus in
-        maiores incidunt. Repellat?</p>
-    <article>
-        <ol>
-        <li>item </li>
-        <li>item </li>
-        <li>item </li>
-        <li>item </li>
-        </ol>
-    </article>
-
+<body>
+    <h1 >FLEX DEMO</h1>
+    <div id="flex">
+        <img src="images/503641.jpg" alt="image">
+        <img src="images/Grisaia_Phantom_Trigger_Fried_egg_Frying_pan_541513_300x168.jpg" alt="image-1">
+        <img src="images/Hatsune_Miku_Vocaloid_Sundown_521840_300x210.jpg" alt="image-2">
+        <img src="images/School_Grisaia_Phantom_Trigger_541515_300x169.jpg" alt="image-3">
+    </div>
 </body>
-
 </html>
